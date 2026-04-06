@@ -3,7 +3,11 @@
   "version": "0.0.2",
   "description": "mapend UI Specifier",
   "dependencies": {
-
+    "mmcore-ui": "workspace:*"
+  },
+  "peerDependencies": {
+    "expo-status-bar": "*",
+    "mmcore": "*"
   },
   "license": "Apache-2.0",
   "main": "src/index.ts",
